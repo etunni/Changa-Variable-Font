@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="50" maximum="220" default="50"/>
+    <axis tag="wdth" name="width" minimum="75" maximum="100" default="75"/>
+    <axis tag="slnt" name="slant" minimum="0" maximum="10" default="0"/>
+    <axis tag="opsz" name="optical size" minimum="12" maximum="144" default="12"/>
+  </axes>
+  <rules>
+    <rule name="ag">
+      <conditionset>
+        <condition name="optical size" minimum="12" maximum="144"/>
+        <condition name="slant" minimum="5" maximum="10"/>
+        <condition name="width" minimum="75" maximum="100"/>
+        <condition name="weight" minimum="50" maximum="220"/>
+      </conditionset>
+      <sub name="a" with="a.ss01"/>
+      <sub name="aacute" with="aacute.ss01"/>
+      <sub name="a" with="a.ss01"/>
+      <sub name="aacute" with="aacute.ss01"/>
+      <sub name="abreve" with="abreve.ss01"/>
+      <sub name="acircumflex" with="acircumflex.ss01"/>
+      <sub name="adieresis" with="adieresis.ss01"/>
+      <sub name="agrave" with="agrave.ss01"/>
+      <sub name="amacron" with="amacron.ss01"/>
+      <sub name="aogonek" with="aogonek.ss01"/>
+      <sub name="aring" with="aring.ss01"/>
+      <sub name="aringacute" with="aringacute.ss01"/>
+      <sub name="atilde" with="atilde.ss01"/>
+      <sub name="g" with="g.ss01"/>
+      <sub name="gbreve" with="gbreve.ss01"/>
+      <sub name="gcircumflex" with="gcircumflex.ss01"/>
+      <sub name="gcommaaccent" with="gcommaaccent.ss01"/>
+      <sub name="gdotaccent" with="gdotaccent.ss01"/>
+      <sub name="gmacron" with="gmacron.ss01"/>
+    </rule>
+        <rule name="dollar">
+      <conditionset>
+        <condition name="optical size" minimum="12" maximum="144"/>
+        <condition name="slant" minimum="0" maximum="10"/>
+        <condition name="width" minimum="75" maximum="100"/>
+        <condition name="weight" minimum="140" maximum="220"/>
+      </conditionset>
+      <sub name="dollar" with="dollar.ss01"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="masters/Changa-Black.ufo" familyname="Changa" stylename="Black">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackCondensed.ufo" familyname="Changa" stylename="Black Condensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackCondensedDisplay.ufo" familyname="Changa" stylename="Black Condensed">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackDisplay.ufo" familyname="Changa" stylename="Black">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackItalic.ufo" familyname="Changa" stylename="Black">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackItalicCondensed.ufo" familyname="Changa" stylename="Black Condensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackItalicCondensedDisplay.ufo" familyname="Changa" stylename="Black Condensed">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-BlackItalicDisplay.ufo" familyname="Changa" stylename="Black">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-Thin.ufo" familyname="Changa" stylename="Thin">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinCondensed.ufo" familyname="Changa" stylename="Thin Condensed">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinCondensedDisplay.ufo" familyname="Changa" stylename="Thin Condensed">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinDisplay.ufo" familyname="Changa" stylename="Thin">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinItalic.ufo" familyname="Changa" stylename="Thin">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinItalicCondensed.ufo" familyname="Changa" stylename="Thin Condensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinItalicCondensedDisplay.ufo" familyname="Changa" stylename="Thin Condensed">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="masters/Changa-ThinItalicDisplay.ufo" familyname="Changa" stylename="Thin">
+      <location>
+        <dimension name="optical size" xvalue="144"/>
+        <dimension name="slant" xvalue="10"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Changa" stylename="Thin" filename="instances/Changa-Thin.ufo" postscriptfontname="Changa-Thin">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="ExtraLight" filename="instances/Changa-ExtraLight.ufo" postscriptfontname="Changa-ExtraLight">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="65"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Light" filename="instances/Changa-Light.ufo" postscriptfontname="Changa-Light">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="80"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Regular" filename="instances/Changa-Regular.ufo" postscriptfontname="Changa-Regular">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Medium" filename="instances/Changa-Medium.ufo" postscriptfontname="Changa-Medium">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="123"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="SemiBold" filename="instances/Changa-SemiBold.ufo" postscriptfontname="Changa-SemiBold">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="149"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Bold" filename="instances/Changa-Bold.ufo" postscriptfontname="Changa-Bold">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="176"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="ExtraBold" filename="instances/Changa-ExtraBold.ufo" postscriptfontname="Changa-ExtraBold">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Black" filename="instances/Changa-Black.ufo" postscriptfontname="Changa-Black">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Thin Condensed" filename="instances/Changa-ThinCondensed.ufo" postscriptfontname="Changa-ThinCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="ExtraLight Condensed" filename="instances/Changa-ExtraLightCondensed.ufo" postscriptfontname="Changa-ExtraLightCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="62"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Light Condensed" filename="instances/Changa-LightCondensed.ufo" postscriptfontname="Changa-LightCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="76"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Condensed" filename="instances/Changa-Condensed.ufo" postscriptfontname="Changa-Condensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="95"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Medium Condensed" filename="instances/Changa-MediumCondensed.ufo" postscriptfontname="Changa-MediumCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="117"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="SemiBold Condensed" filename="instances/Changa-SemiBoldCondensed.ufo" postscriptfontname="Changa-SemiBoldCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="142"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Bold Condensed" filename="instances/Changa-BoldCondensed.ufo" postscriptfontname="Changa-BoldCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="168"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="ExtraBold Condensed" filename="instances/Changa-ExtraBoldCondensed.ufo" postscriptfontname="Changa-ExtraBoldCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="190"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Changa" stylename="Black Condensed" filename="instances/Changa-BlackCondensed.ufo" postscriptfontname="Changa-BlackCondensed">
+      <location>
+        <dimension name="optical size" xvalue="12"/>
+        <dimension name="slant" xvalue="0"/>
+        <dimension name="width" xvalue="75"/>
+        <dimension name="weight" xvalue="220"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewMutatorMath</string>
+    </dict>
+  </lib>
+</designspace>
