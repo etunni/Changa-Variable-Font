@@ -20,8 +20,8 @@ Pathway is still being built, but it will have the following axes:
 (...to be continued) -->
 
 ![](CHANGA-new weights.jpg)
-![]((CHANGA-optical-big.jpg)
-![]((CHANGA-slant.jpg)
+![](CHANGA-optical-big.jpg)
+![](CHANGA-slant.jpg)
 
 ## Collaborators 
 
