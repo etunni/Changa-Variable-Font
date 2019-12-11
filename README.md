@@ -19,11 +19,11 @@ Pathway is still being built, but it will have the following axes:
 
 (...to be continued) -->
 
-![Movie Sample](Changa.mp4)
-
 ![Weight Sample](CHANGA-new-weights.jpg)
 
+
 ![Optical Sample](CHANGA-optical-big.jpg)
+
 
 ![Smart Slant Samople](CHANGA-slant.jpg)
 
