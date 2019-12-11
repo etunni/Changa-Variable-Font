@@ -2,7 +2,7 @@
 
 ![](CHANGA-cover.jpg)
 
-Changa is a typeface family intended for headlines, titles and other display settings and supports the Latin and Arabic scripts.
+Changa is a typeface family intended for headlines, titles and other display settings. Supports a large range of Latin scripts.
 
 The Latin was developed with a singular height so that you can create display texts with minimum line spacing. The lowercase has short ascenders and descenders and the letters are inscribed within a square. The uppercase is also sturdy and squat. The counter shapes are rectangular, featuring small curves in opposite vertexes which accompany and break the shapes, evoking a contemporary style. Now redesigned with the advantages of variable font technology.
 
@@ -19,8 +19,14 @@ Pathway is still being built, but it will have the following axes:
 
 (...to be continued) -->
 
+(CHANGA-new weights.jpg)
+(CHANGA-optical-big.jpg)
+(CHANGA-slant.jpg)
+
 ## Collaborators 
 
 - Adam Twardoch and FontLab team
 
 + Many other advisors and reviewers
+
+

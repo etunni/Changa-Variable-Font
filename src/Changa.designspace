@@ -14,25 +14,38 @@
         <condition name="width" minimum="75" maximum="100"/>
         <condition name="weight" minimum="50" maximum="220"/>
       </conditionset>
-      <sub name="a" with="a.ss01"/>
-      <sub name="aacute" with="aacute.ss01"/>
-      <sub name="a" with="a.ss01"/>
-      <sub name="aacute" with="aacute.ss01"/>
-      <sub name="abreve" with="abreve.ss01"/>
-      <sub name="acircumflex" with="acircumflex.ss01"/>
-      <sub name="adieresis" with="adieresis.ss01"/>
-      <sub name="agrave" with="agrave.ss01"/>
-      <sub name="amacron" with="amacron.ss01"/>
-      <sub name="aogonek" with="aogonek.ss01"/>
-      <sub name="aring" with="aring.ss01"/>
-      <sub name="aringacute" with="aringacute.ss01"/>
-      <sub name="atilde" with="atilde.ss01"/>
-      <sub name="g" with="g.ss01"/>
-      <sub name="gbreve" with="gbreve.ss01"/>
-      <sub name="gcircumflex" with="gcircumflex.ss01"/>
-      <sub name="gcommaaccent" with="gcommaaccent.ss01"/>
-      <sub name="gdotaccent" with="gdotaccent.ss01"/>
-      <sub name="gmacron" with="gmacron.ss01"/>
+<sub name="a" with="a.ss01"/>
+<sub name="aacute" with="aacute.ss01"/>
+<sub name="abreve" with="abreve.ss01"/>
+<sub name="abreveacute" with="abreveacute.ss01"/>
+<sub name="abrevedotbelow" with="abrevedotbelow.ss01"/>
+<sub name="abrevegrave" with="abrevegrave.ss01"/>
+<sub name="abrevehookabove" with="abrevehookabove.ss01"/>
+<sub name="abrevetilde" with="abrevetilde.ss01"/>
+<sub name="acircumflex" with="acircumflex.ss01"/>
+<sub name="acircumflexacute" with="acircumflexacute.ss01"/>
+<sub name="acircumflexdotbelow" with="acircumflexdotbelow.ss01"/>
+<sub name="acircumflexgrave" with="acircumflexgrave.ss01"/>
+<sub name="acircumflexhookabove" with="acircumflexhookabove.ss01"/>
+<sub name="acircumflextilde" with="acircumflextilde.ss01"/>
+<sub name="adblgrave" with="adblgrave.ss01"/>
+<sub name="adieresis" with="adieresis.ss01"/>
+<sub name="adotbelow" with="adotbelow.ss01"/>
+<sub name="agrave" with="agrave.ss01"/>
+<sub name="ahookabove" with="ahookabove.ss01"/>
+<sub name="ainvertedbreve" with="ainvertedbreve.ss01"/>
+<sub name="amacron" with="amacron.ss01"/>
+<sub name="aogonek" with="aogonek.ss01"/>
+<sub name="aring" with="aring.ss01"/>
+<sub name="aringacute" with="aringacute.ss01"/>
+<sub name="atilde" with="atilde.ss01"/>
+<sub name="g" with="g.ss01"/>
+<sub name="gbreve" with="gbreve.ss01"/>
+<sub name="gcaron" with="gcaron.ss01"/>
+<sub name="gcircumflex" with="gcircumflex.ss01"/>
+<sub name="gcommaaccent" with="gcommaaccent.ss01"/>
+<sub name="gdotaccent" with="gdotaccent.ss01"/>
+<sub name="gmacron" with="gmacron.ss01"/>
     </rule>
         <rule name="dollar">
       <conditionset>
